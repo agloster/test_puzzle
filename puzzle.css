@@ -1,0 +1,79 @@
+button {
+    background-color: #e27e6a; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+
+#controls, #overall, #puzzlearea {
+	width: 400px;
+}
+
+#controls {
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #e27e6a;
+}
+
+
+#overall {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#puzzlearea {
+	font-size: 32pt;
+	height: 400px;
+	padding: 0px;
+	position: relative;
+}
+
+
+.puzzlepiece {
+	color: #e27e6a;
+	background-repeat: no-repeat;
+	border: 2px solid white;
+	cursor: default;
+	height: 96px;
+	line-height: 96px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	width: 96px;
+	text-shadow: 1px 1px 0 #9a5a4d;
+	box-sizing: content-box !important;
+}
+
+.movablepiece:hover {
+	border-color: #33b793;
+	color: #33b793;
+	cursor: pointer;
+	text-shadow: 1px 1px 0 #2b896c;
+}
+
+.win {
+	color: #33b793;
+	font-size: 24px;
+	text-shadow: 1px 1px 0 #2b896c;	
+}
+
+#info {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.hideNum, .hideNum:hover {
+	color:transparent;
+	text-shadow: 0px 0px 0 ;
+}
